@@ -1,0 +1,30 @@
+
+
+  #modalBannerPopup .fa-times {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .label-product {
+    border-bottom-left-radius: 26px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  @media screen and (max-width: 700px) {
+    .label-product {
+      border-bottom-left-radius: 16px;
+      font-size: 10px;
+      padding: 4px 15px;
+      padding-left: 20px;
+    }
+  }
